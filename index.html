@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="scss/style.css" rel="stylesheet">
 
   </head>
 
@@ -98,6 +99,16 @@
             </a>
           </div>
             <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#QuickRef-Modal" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/quicksource.png" alt="">
+            </a>
+          </div>
+            <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#DayVulge-Modal" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -118,10 +129,10 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p>I am a fullstack Javascript developer. I love working with Node.js, Express, React-Redux, Postgres, and SQL (to name a few). Most recently, I have been working as a Teaching Fellow at Fullstack Academy in Chicago, IL.  </p>
+            <p>I am a fullstack Javascript developer. I love working with Node.js, Express, React-Redux, Postgres, and SQL (to name a few). I have experience in NoSQL, Graph databases, and Typescript. And I am inspired to learn Go, Solidity, and Electron Development. I enjoy working in web development because there is always something new just around the corner. </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p>I love both writing code for computers and words for humans. Originally an English major, I enjoy reading good books. I also love exploring in the outdoors, climbing, and kayaking.</p>
+            <p>I love both writing code for computers and words for humans. Originally an English major, I enjoy reading good books. I also love exploring in the outdoors, climbing, and kayaking. My most recent professional work has included working as a Teaching Assistant at Fullstack Academy of Code in Chicago, and as a Javascript developer at CFX Trading.</p>
           </div>
         </div>
       </div>
@@ -302,6 +313,58 @@
                     <li>Technologies:
                       <strong>
                         IPFS, HTTP, TCP/IP, git, Merkle Dag
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="portfolio-modal modal fade" id="QuickRef-Modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>QuickSource</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/quicksource.png" alt="">
+                    <p>
+                    QuickSource was a project I built in my free time as a lightweight version of a previous project - SmartDocs. While SmartDocs required that you write a portion of text before it would fetch your research, this is a tool that allows you to conduct more manual searches for academic research based on keywords.
+                    </p>
+                    <p>
+                    The development of this application was driven by the desire to minimize the number of steps between a researcher and the information they need to continue their work.
+                    </p>
+                    <p>
+                    This is version 1.0 and represents a proof of concept for a fast academic search engine with a minimal interface. Continuing development will include a chrome extension for increased ease of use
+                    </p>
+                  
+                  <ul class="list-inline item-details">
+                    <li>Link:
+                      <strong>
+                        <a href="https://quicksource.herokuapp.com">QuickSource</a>
+                      </strong>
+                    </li>
+                    <li>Role:
+                      <strong>
+                        Sole Developer
+                      </strong>
+                    </li>
+                    <li>Technologies:
+                      <strong>
+                        React, Redux, Node, Express, CrossRef API, Mailjet
                       </strong>
                     </li>
                   </ul>
